@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('a')-1, -1):
-    print('{}'.format(chr(i)) if i % 2 == 0 else chr(i - 32), end='')
+def remove_char_at(str, n):
+    if n < 0:
+        return str
+    result = str[0:n]
+    result += str[n+1:]
+    return result
