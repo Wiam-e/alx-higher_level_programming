@@ -1,2 +1,3 @@
---A script that creates a table called first_table with values id and name in my MySQL server.
+--A script that Creates a first_table in MySQL.
+-- Exceute: cat 4-first_table.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
 CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256));
